@@ -48,6 +48,7 @@ ENDCOL:		push ecx
 			mov ecx, 30			
 		
 ENDLINE:	
+			;exemplo de alteracao
 			mov eax, [edi]
 			call SetTextColor
 			
